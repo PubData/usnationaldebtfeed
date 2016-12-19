@@ -4,7 +4,6 @@ __pycache__/
 *$py.class
 
 # virtualenv.
-# Ignore as this is populated when doing $ pip3 install -r deply/requirements.txt.
 venv/
 ENV/
 
