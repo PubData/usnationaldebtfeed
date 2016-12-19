@@ -2,7 +2,9 @@
 Feed of the recent U.S. Public Debt
 
 ## Synopsis
-The U.S. Treasury publishes an RSS feed daily with various metrics regarding the debt.   This replicates that feed, but publishes just the Total Public Debt number.
+The U.S. Treasury publishes an RSS feed daily with various metrics regarding the debt.
+
+This replicates that feed, but publishes just the Total Public Debt number.
 
 
 ## Installation
@@ -23,7 +25,7 @@ For testing, use gunicorn:
 
 ``` sh
 $ gunicorn usnationaldebtrss:app
-```
+``` 
 
 From a browser, access the app using: http://localhost:8000/rss
 
