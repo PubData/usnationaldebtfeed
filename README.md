@@ -27,11 +27,11 @@ For testing, use gunicorn:
 $ gunicorn usnationaldebtrss:app
 ``` 
 
-From a browser, access the app using: http://localhost:8000/rss
+From a browser, access the app using: [http://localhost:8000/rss](http://localhost:8000/rss)
 
 ## Example
 
-This is running at http://www.debttothepenny.com/rss, which is used to publish the <a href="http://twitter.com/debttothepenny">@DebtToThePenny</a> Twitter feed.
+This is running at [DebtToThePenny.com/rss](http://www.debttothepenny.com/rss), which is used to publish the [@DebtToThePenny](https://twitter.com/debttothepenny) Twitter feed.
 
 ## License
 
