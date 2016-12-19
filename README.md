@@ -31,7 +31,7 @@ From a browser, access the app using: [http://localhost:8000/rss](http://localho
 
 ## Example
 
-This is running at [DebtToThePenny.com/rss](http://www.debttothepenny.com/rss), which is used to publish the [@DebtToThePenny](https://twitter.com/debttothepenny) Twitter feed.
+This is running at [DebtToThePenny.com/rss](https://www.debttothepenny.com/rss), which is used to publish the [@DebtToThePenny](https://twitter.com/debttothepenny) Twitter feed.
 
 ## License
 
