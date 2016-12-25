@@ -33,7 +33,7 @@ app = Flask(__name__)
 
 @app.route('/feed/', methods=['GET'])
 @app.route('/rss/', methods=['GET'])
-def index():
+def feed():
     feed = \
         AtomFeed('Recent entries', feed_url=request.url, url=request.url_root)
     for entry in feed_entries():
