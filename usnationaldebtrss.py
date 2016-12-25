@@ -31,6 +31,7 @@ def feed_entries():
 app = Flask(__name__)
 
 
+@app.route('/feed/', methods=['GET'])
 @app.route('/rss/', methods=['GET'])
 def index():
     feed = \
@@ -40,7 +41,7 @@ def index():
             entry["entryTitle"], entry["entryText"],
             id='{:%Y%m%d%H%M%S}'.format(entry["pubDate"]),
             content_type='text',
-            author='U.S. Treasury RSS treasurydirect.gov/NP/debt/current',
+            author='U.S. Treasury RSS Feed treasurydirect.gov/NP/debt/current',
             url='http://treasurydirect.gov/NP/debt/current',
             updated=entry["pubDate"],
             published=entry["pubDate"])

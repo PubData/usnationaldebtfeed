@@ -1,10 +1,10 @@
-# usnationaldebtrss
-Feed of the recent U.S. Public Debt
+# usnationaldebtfeed
+Syndiated Feed (Atom) of the recent U.S. Public Debt
 
 ## Synopsis
-The U.S. Treasury publishes an RSS feed daily with various metrics regarding the debt.
+The U.S. Treasury publishes a feed (RSS) daily with various metrics regarding the debt.
 
-This replicates that feed, but publishes just the Total Public Debt number.
+This replicates that feed (Atom), but publishes just the Total Public Debt number.
 
 
 ## Installation
@@ -12,8 +12,8 @@ This is a Flask app (Python3).
 
 ``` sh
 $ cd [your workspace]
-$ git clone https://github.com/pubdata/usnationaldebtrss.git
-$ cd usnationaldebtrss
+$ git clone https://github.com/pubdata/usnationaldebtfeed.git
+$ cd usnationaldebtfeed
 $ virtualenv -p python3 venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
@@ -24,14 +24,14 @@ Further deploy instructions will vary based on production system requirements.
 For testing, use gunicorn:
 
 ``` sh
-$ gunicorn usnationaldebtrss:app
+$ gunicorn usnationaldebtfeed:app
 ``` 
 
-From a browser, access the app using: [http://localhost:8000/rss](http://localhost:8000/rss)
+From a browser, access the app using: [http://localhost:8000/feed](http://localhost:8000/feed)
 
 ## Example
 
-This is running at [DebtToThePenny.com/rss](https://www.debttothepenny.com/rss), which is used to publish the [@DebtToThePenny](https://twitter.com/debttothepenny) Twitter feed.
+This is running at [DebtToThePenny.com/feed](https://www.debttothepenny.com/feed), which is used to publish the [@DebtToThePenny](https://twitter.com/debttothepenny) Twitter feed.
 
 ## License
 
