@@ -39,7 +39,7 @@ def feed():
     for entry in feed_entries():
         feed.add(
             entry["entryTitle"], entry["entryText"],
-            id='{:%Y%m%d%H%M%S}'.format(entry["pubDate"]),
+            id='https://TreasuryDirect.gov/{:%Y%m%d%H%M%S}'.format(entry["pubDate"]),
             content_type='text',
             author='U.S. Treasury RSS Feed treasurydirect.gov/NP/debt/current',
             url='http://treasurydirect.gov/NP/debt/current',
