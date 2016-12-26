@@ -19,7 +19,7 @@ def feed_entries():
         # "Total Public Debt Outstanding:&lt;/em&gt; 19,443,266,164,413.41"
         formatted_num_val = entry['content'][0]['value'].split()[-1]
         entry_text = \
-            "Total U.S. National Public Debt Outstanding: ${}".format(formatted_num_val)
+            "Total U.S. National Public Debt: ${}".format(formatted_num_val)
         results.append({
             "pubDate": entry_pub_date,
             "entryTitle": "{:%Y-%m-%d}".format(entry_pub_date),
