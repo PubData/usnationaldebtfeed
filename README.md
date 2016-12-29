@@ -1,5 +1,5 @@
 # usnationaldebtfeed
-Syndiated Feed (Atom) of the recent U.S. Public Debt
+Syndiated Feed (Atom) of the recent U.S. National Public Debt
 
 ## Synopsis
 The U.S. Treasury publishes a feed (RSS) daily with various metrics regarding the debt.
