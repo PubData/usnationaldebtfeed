@@ -14,7 +14,7 @@ def feed_entries():
         # date to show, not the "close of business" date which the value is for.
         entry_pub_date = \
             datetime.strptime(entry['published'], '%a, %d %b %Y %H:%M:%S GMT')
-        # Parse conent, pulling the number value for 'Public Debt Outstanding'
+        # Parse content, pulling the number value for 'Public Debt Outstanding'
         # which happens to be the last part.    E.g.,
         # "Total Public Debt Outstanding:&lt;/em&gt; 19,443,266,164,413.41"
         formatted_num_val = entry['content'][0]['value'].split()[-1]
