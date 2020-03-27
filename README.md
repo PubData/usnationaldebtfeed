@@ -14,8 +14,10 @@ This is a Flask app (Python3).
 $ cd [your workspace]
 $ git clone https://github.com/pubdata/usnationaldebtfeed.git
 $ cd usnationaldebtfeed
-$ virtualenv -p python3 venv
+$ python3 -m venv venv
 $ source venv/bin/activate
+$ pip install --upgrade pip
+$ pip install --upgrade setuptools
 $ pip install -r requirements.txt
 ``` 
 
